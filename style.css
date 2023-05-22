@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.couleur-fond{
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+.select-Color{
+    z-index: 1; 
+    padding: 10px 70px;
+    font-size: 30px;
+    text-transform: uppercase;
+    border: 6px;
+    outline: 0;
+}
